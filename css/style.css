@@ -1,0 +1,272 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Bree Serif", serif;
+}
+
+/* navbar */
+
+.navbar-dark {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+.navbar a {
+  color: #fff !important;
+}
+.navbar a:hover {
+  color: #c72c41 !important;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+  color: #fff;
+}
+.navbarspan {
+  color: #c72c41 !important;
+}
+
+.active {
+  color: #c72c41 !important;
+}
+
+.headerh1 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: "Libre Baskerville", serif;
+}
+
+#header {
+  position: relative;
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 570px) {
+  #header {
+    background-image: url("../img/backmob.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+#header svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* about */
+#About {
+  position: relative;
+  background-color: #f4f6ff;
+  padding: 35px 0 0;
+}
+#About svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.about-m {
+  padding: 10px 15px 150px;
+  text-align: center;
+}
+.about-m h1 {
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+/* feature */
+#feature {
+  position: relative;
+  background-color: #29335c;
+  padding: 35px 0 30px;
+  text-align: center !important;
+}
+.feature-row {
+  margin-bottom: 125px;
+  padding: 30px 15px 70px;
+}
+#feature svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* vedio  */
+#vedio {
+  position: relative;
+  background-color: #f4f6ff;
+  height: 80vh;
+}
+#vedio svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.vedio-container {
+  text-align: center;
+}
+
+/* services */
+#services {
+  position: relative;
+  background-color: #29335c;
+  padding: 30px 0 100px;
+  text-align: center;
+}
+
+.services-row {
+  padding: 30px 15px 100px;
+}
+
+#services svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* client */
+#client {
+  position: relative;
+  background-color: #f4f6ff;
+}
+#client svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.partners {
+  padding: 30px 15px 100px;
+}
+
+/* contact */
+#contact {
+  position: relative;
+  background-color: #29335c;
+  padding: 0 0 130px;
+  color: white !important;
+}
+
+#contact svg {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.form-control {
+  width: 90%;
+  background: none !important;
+  color: white;
+  border: none;
+  border-bottom: solid #ff3366 1px;
+}
+
+#footer {
+  position: relative;
+  background-color: #f4f6ff;
+  background-image: url("../img/footer1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0;
+  text-align: left;
+}
+
+#footer li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+#footer li i {
+  color: #2b2b2b;
+}
+#footer li i:hover {
+  color: #0f4c75;
+}
+
+#feedback {
+  position: fixed;
+  width: 350px;
+  height: 350px;
+  float: right;
+  right: 28px;
+  bottom: 75px;
+}
+#btn-feadback {
+  background: none !important;
+  color: #a7acad;
+  border: none;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  font-size: 2.5rem;
+}
+#feedback-form {
+  display: none;
+  border-radius: 7px;
+  background-color: #1a1919cb;
+  margin: 4px;
+  text-align: center;
+  padding: 5px;
+  margin: 6px;
+}
+.input-form {
+  width: 95%;
+  border-radius: 7px;
+  background-color: #f4f6ff;
+  margin: 4px;
+  text-align: center;
+  border-radius: 7px;
+}
+input[type="textarea"] {
+  height: 200px;
+  padding-bottom: 20px !important;
+}
+#feedback li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  padding-left: 30px;
+}
+.li-one {
+  color: #32ff6a;
+}
+.li-two {
+  color: #12cad6;
+}
+.li-three {
+  color: #fa163f;
+}
+
+.scrollup-btn {
+  position: fixed;
+  left: 28px;
+  bottom: 30px;
+  display: none;
+  color: #a7acad;
+  font-size: 20px;
+}
+
+/* globel */
+
+.white {
+  color: #fff;
+}
+
+.h1-black {
+  text-align: center;
+  font-weight: bold;
+}
+.black {
+  color: black !important;
+}
